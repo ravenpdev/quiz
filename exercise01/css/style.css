@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: inline-block;
+  height: 40px;
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.compute {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.result-container {
+  margin-top: 20px;
+}
